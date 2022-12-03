@@ -1,0 +1,34 @@
+Please answer the below Data Structure Questions:
+
+Q. why do we need data structure?
+A.Data structures are used in every program or software system to arrange the data. Data structures are essential ingredients of many efficient algorithms. It helps in the management of huge amounts of data, such as a large integrated collection of databases.
+What are the various operations that can be performed on different Data Structures?
+A.1. Creation: Creating a data structure according to the requirement. eg: an integer array of 5 values. ...
+  2. Insertion: Inserting values into data structure. ...
+  3. Traversal: Visiting each element of the data structure at least once.
+  4. Search: Searching of an element in the given number of elements. ...
+  5. Sorting: Rearranging the elements in a paritcular order, ascending or descending order. ...
+Q. List out the areas in which data structures are applied extensively?
+A.Data structures are essential in almost every aspect where data is involved. In general, algorithms that involve efficient data structure is applied in the following areas: numerical analysis, operating system.
+Q. What is an Array?
+A.An array is a collection of similar data elements stored at contiguous memory locations.
+Q. What is the difference between the Array and ArrayList?
+A.The main difference between Array and ArrayList is that Array is a fixed length data structure while ArrayList is a variable length Collection class
+Q. What is LinkedList?
+A.A linked list is a linear data structure, in which the elements are not stored at contiguous memory locations
+Q. How is an ArrayList different from Linked List?
+A.The major difference between Array and Linked list regards to their structure. Arrays are index based data structure where each element associated with an index.
+Q. What is the difference between the HashTable and HashMap?
+A.Hashmap vs Hashtable. HashMap is non-synchronized
+Q. What are the major data structures used in the following areas : RDBMS, Network data model and Hierarchical data model?
+A.RDBMS - Array (i.e. Array of structures) Network data model - Graph Hierarchical data model - Trees
+Q. How HashMap works in java?
+A.HashMap in Java works on hashing principles. It is a data structure which allows us to store object and retrieve it in constant time O (1) provided we know the key
+Q. What is ArrayIndexOutOfBoundsException in java? When it occurs?
+A.The ArrayIndexOutOfBoundsException occurs whenever we are trying to access any item of an array at an index which is not present in the array
+
+Q. What are the different ways of copying an array into another array?
+A.You can use a for loop and copy elements of one to another one by one.
+  Use the clone method to clone an array.
+  Use arraycopy () method of System class.
+  Use copyOf () or copyOfRange () methods of Arrays class.

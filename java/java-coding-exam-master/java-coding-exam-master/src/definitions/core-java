@@ -1,0 +1,112 @@
+Please answer the below core-java Questions:
+
+Q. What is programing language?
+A.
+Programming language is a data structure that will be manipulated by a computer according to different algorithms
+Q. What are the jdk components ? define each component?
+A.
+The Java Development Kit refers to a set of basic software libraries of the Java programming language,
+appletviewer – this tool can be used to run and debug Java applets without a web browser
+ apt – the annotation-processing tool
+ extcheck – a utility that detects JAR file conflicts
+ idlj – the IDL-to-Java compiler
+ jabswitch – the Java Access Bridge
+ java – the loader for Java applications
+ javac – the Java compiler, which converts source code into Java bytecode
+
+Q. What is an IDE?
+A. IDE is a connection interface used to transfer data between the motherboard of a computer or server to the hard disk for example
+Q. What are the IDEs available in the market to support java?
+A. Eclipse, NetBeans, IntelliJ
+Q. Explain the entire java life cycle.
+A. Editing the program
+   Compiling the source code
+   Executing the byte code
+Q. What is class?
+A. class groups members, methods and properties common to a set of objects
+
+Q. What is object?
+A.
+object contains information and mechanisms concerning a subject, manipulated in a program
+
+Q. What is the entry point of an application?
+A. An application entry point identifies a resource that is an access point to an application.
+Q. Why main method is static?
+A.As the main() method is the starting point for the compiler to execute the program, therefore declaring the main() static is necessary for the following ways.
+Q. Which class is the superclass of all classes in java?
+A. Java.lang.object class
+Q. What is difference between path and classpath variables?
+A.path environment variable is used by operating system to find any binary, while classpath is only used by Java ClassLoaders to load class files
+Q. What is the difference between an Interface and Abstract class?
+A.abstract class and interface are used for abstraction, henceforth Interface and Abstract Class are required prerequisites.
+Q. Can you make an Object from an Interface and Abstract class ? how do you use interface and abstract class?
+A.No, we can't create an object of an abstract class
+Q. What is Access Specifier?
+A. An access specifier is a defining code element that can determine which elements of a program are allowed to access a specific variable or other piece of data.
+Q. What is OOP ? Define each feature of java OOP.
+A.Object-oriented programming, or object-oriented programming, is a computer programming paradigm. It consists of the definition and interaction of software bricks called objects
+Q. What is Java Package and which package is imported by default?
+A.Java, the package is the collection of Java classes and interfaces
+Q. What is API? Name list of API that you have used so far.
+A.An API is defined as a specification of possible interactions with a software component
+Q. Does java support multiple inheritance?
+A.Java doesn’t allow multiple inheritance
+Q. What is method overloading and when it happens?
+A.Method overloading is resolved during the compilation of the program while method overriding is resolved at the time of execution or during the runtime
+Q. Explain exceptions in java and how to handle it?
+A.Java provides two different options to handle an exception. You can either use the try-catch-finally approach to handle all kinds of exceptions. Or you can use the try-with-resource approach which allows an easier cleanup process for resources.
+Q. What is static keyword in java? How it has been used in variables, methods and classes?
+A.Static Keyword in Java Programmers use static keywords in Java to manage memory. Programmers use it with methods, variables, nested classes, and blocks
+Q. What is final and how it has been used variables, methods and classes?
+A.The final keyword can be used for variables, methods and classes
+Q. What is final, finally and finalize?
+A.The final, finally, and finalize are keywords in Java that are used in exception handling. Each of these keywords has a different functionality. The basic difference between final, finally and finalize is that the final is an access modifier, finally is the block in Exception Handling and finalize is the method of object class.
+Q. What is a constructor ?
+A. A constructor is a special type of function with no return type. Name of constructor should be same as the name of the class.
+Q. Can we have multiple constructors in a class?
+A.Yes we can
+Q. If we don't have a constructor declared, what is called during the object creation?
+A.A constructor is automatically called when an object is created. It must be placed in public section of class. If we do not specify a constructor, C++ compiler generates a default constructor for object (expects no parameters and has an empty body).
+
+Q. What is "this" keyword in java ?
+A.it refers to the current object of method or constructor
+
+Q. What is "super" keyword in java? How to use it?
+A.it refers immediate parent class object
+Q. What is JVM stand for?
+A.The Java virtual machine manages application memory and provides a portable execution environment for Java-based applications
+
+
+Q. Is JVM platform independent?
+A.Java Compiler and JVM are independent of each other,
+Q. What version of java are you using?
+A. java version 1.8
+
+Q. What is JAR stand for?
+A.is a package that agregate many java class files
+
+Q. What is the difference between JDK and JVM?
+A.JDK is a software development kit and JVM is an environment for executing bytecode.
+Q. What is the difference between JVM and JRE?
+A.A Java virtual machine is a running software system responsible for executing live Java programs. The JRE is the on-disk software component that takes your compiled Java code (the code is compiled with the JDK
+Q. What is compile time and run time?
+A.Compile-time is the time at which the source code is converted into an executable code while the run time is the time at which the executable code is started running
+Q. What is the difference between String, StringBuffer and StringBuilder?
+A.String is immutable whereas StringBuffer and StringBuilder are mutable classes. StringBuffer is thread-safe and synchronized whereas StringBuilder is not.
+Q. What is Singleton class?
+A.A singleton class in Java is the one which can have only one object. The easiest implementation consists of a private constructor and a field to hold its result
+Q. What is the difference between while and do..while loop?
+A.the main difference between a while loop and do while loop is that while loop check condition before iteration of the loop. On the other hand, the do-while loop verifies the condition after the execution of the statements inside the loop
+Q. What is Enum?
+A. is a user-defined data type that enables you to create a new data type that has a fixed range of possible values, and the variable can select one value from the set of values
+
+Q. What is Iterator?
+A.an iterator is an object that enables a programmer to traverse a container, particularly lists.
+
+Q. Which one will take more memory, an int or Integer?
+A.An Integer object will take more memory an Integer is the an object and it store meta data overhead about the object and int is primitive type so its takes less space.
+Q. What is JIT stands for?
+A.The just-in-time (JIT) inventory system minimizes inventory and increases efficiency
+
+Q. What is Recursion?
+A.Recursion is a type of problem-solving used in computer science.
